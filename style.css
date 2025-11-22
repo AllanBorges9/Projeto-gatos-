@@ -41,10 +41,15 @@
     border: 0;
     font-size: 1rem;
     background-color: var(--cor-light-blue);
+    color: var(--cor-white);
     }
+  input:focus{
+    outline: 1px solid var(--cor-white);
+  }
+
 input::placeholder {
     color:var(--cor-white);
-    opacity: 80%;
+    opacity: 80%;   
 }
 
   header .logo{
