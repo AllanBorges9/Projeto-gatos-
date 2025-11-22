@@ -19,7 +19,9 @@
  body{
     font-family:var(--font-family)
 }
-
+body {
+    overflow-x: hidden;
+}
 
   header{
     background-color: var(--cor-blue);
@@ -94,6 +96,7 @@ main .joinha{
 }
  .joinha img:hover{
     transform: scale(1.05);
+    transition: transform 0.2s ease-in-out;
 }
 
 main .texto-principal{
@@ -145,6 +148,7 @@ main .texto-principal{
 
 article:hover{
   transform: scale(1.01);
+  transition: transform 0.2s ease-in-out;
   cursor: pointer;
   text-decoration: underline;
 }
@@ -178,7 +182,7 @@ gap: 2rem;
 }
 
 
-@media(max-width: 900px){
+@media(max-width: 1100px){
   .conteudo{
     flex-direction: column;
   }
